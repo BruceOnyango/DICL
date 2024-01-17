@@ -1,0 +1,13 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home2/dicl.co.ke
+    - cd $DEPLOYPATH
+    - git pull origin main
+    - composer install --no-interaction --prefer-dist --optimize-autoloader
+    - cp .env.example .env
+    - 
+    - php artisan route:clear
+    - php artisan config:clear
+    - php artisan view:clear
+    - php artisan cache:clear
+    - 
