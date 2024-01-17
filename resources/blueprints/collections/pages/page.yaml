@@ -1,0 +1,1049 @@
+title: Page
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: blocks
+        field:
+          collapse: false
+          previews: true
+          sets:
+            nav:
+              display: nav
+              fields: {  }
+            multi-carousel:
+              display: multi-carousel
+              fields:
+                -
+                  handle: image
+                  field:
+                    collapse: false
+                    previews: true
+                    sets:
+                      new_set:
+                        display: 'New Set'
+                        fields:
+                          -
+                            handle: images
+                            field:
+                              mode: list
+                              container: assets
+                              restrict: false
+                              allow_uploads: true
+                              show_filename: true
+                              max_files: 1
+                              display: images
+                              type: assets
+                              icon: assets
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                    display: image
+                    type: replicator
+                    icon: replicator
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+            products:
+              display: products
+              fields:
+                -
+                  handle: section_title
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: 'Section Title'
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+                -
+                  handle: product
+                  field:
+                    collapse: false
+                    previews: true
+                    sets:
+                      new_set:
+                        display: 'New Set'
+                        fields:
+                          -
+                            handle: image
+                            field:
+                              mode: list
+                              container: assets
+                              restrict: false
+                              allow_uploads: true
+                              show_filename: true
+                              max_files: 1
+                              display: image
+                              type: assets
+                              icon: assets
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: card_size
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: 'card size'
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: title
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: title
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: description
+                            field:
+                              antlers: false
+                              display: description
+                              type: textarea
+                              icon: textarea
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: modal_link
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: 'modal link'
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: button_cta
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: 'button cta'
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: modal_id
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: 'modal id'
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: modal_title
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: 'modal title'
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: modal_description
+                            field:
+                              antlers: false
+                              display: 'modal description'
+                              type: textarea
+                              icon: textarea
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                    display: product
+                    type: replicator
+                    icon: replicator
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+            services:
+              display: services
+              fields:
+                -
+                  handle: section_title
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: 'Section Title'
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+                -
+                  handle: services
+                  field:
+                    collapse: false
+                    previews: true
+                    sets:
+                      new_set:
+                        display: 'New Set'
+                        fields:
+                          -
+                            handle: title
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: title
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: description
+                            field:
+                              antlers: false
+                              display: description
+                              type: textarea
+                              icon: textarea
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: cta_link
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: 'cta link'
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: cta_text
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: 'cta text'
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                    display: services
+                    type: replicator
+                    icon: replicator
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+            about-home:
+              display: about-home
+              fields:
+                -
+                  handle: section_title
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: 'Section Title'
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+                -
+                  handle: about
+                  field:
+                    collapse: false
+                    previews: true
+                    sets:
+                      new_set:
+                        display: 'New Set'
+                        fields:
+                          -
+                            handle: title
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: title
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: description
+                            field:
+                              antlers: false
+                              display: description
+                              type: textarea
+                              icon: textarea
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                    display: about
+                    type: replicator
+                    icon: replicator
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+            news-home:
+              display: news-home
+              fields:
+                -
+                  handle: section_title
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: 'Section Title'
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+                -
+                  handle: news_title
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: 'News Title'
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+                -
+                  handle: news_description
+                  field:
+                    antlers: false
+                    display: 'News Description'
+                    type: textarea
+                    icon: textarea
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+                -
+                  handle: news_cta
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: 'News Cta'
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+                -
+                  handle: news_link
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: 'News Link'
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+                -
+                  handle: news_image
+                  field:
+                    mode: list
+                    container: assets
+                    restrict: false
+                    allow_uploads: true
+                    show_filename: true
+                    max_files: 1
+                    display: 'News Image'
+                    type: assets
+                    icon: assets
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+            footer:
+              display: footer
+              fields:
+                -
+                  handle: site_link
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: 'Site Link'
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+            single-carousel:
+              display: single-carousel
+              fields:
+                -
+                  handle: image
+                  field:
+                    mode: list
+                    container: assets
+                    restrict: false
+                    allow_uploads: true
+                    show_filename: true
+                    max_files: 1
+                    display: image
+                    type: assets
+                    icon: assets
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+            products-page:
+              display: products-page
+              fields:
+                -
+                  handle: sidebar
+                  field:
+                    collapse: false
+                    previews: true
+                    sets:
+                      new_set:
+                        display: 'New Set'
+                        fields:
+                          -
+                            handle: identifier
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: identifier
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: title
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: title
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                    display: sidebar
+                    type: replicator
+                    icon: replicator
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+                -
+                  handle: section_title
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: 'Section Title'
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+                -
+                  handle: products
+                  field:
+                    collapse: false
+                    previews: true
+                    sets:
+                      new_set:
+                        display: 'New Set'
+                        fields:
+                          -
+                            handle: identifier
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: identifier
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: card_size
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: 'Card Size'
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: image
+                            field:
+                              mode: list
+                              container: assets
+                              restrict: false
+                              allow_uploads: true
+                              show_filename: true
+                              max_files: 1
+                              display: image
+                              type: assets
+                              icon: assets
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: title
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: title
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: description
+                            field:
+                              antlers: false
+                              display: description
+                              type: textarea
+                              icon: textarea
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: modal_link
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: 'modal link'
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: card_cta
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: 'Card Cta'
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: modal_id
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: 'Modal Id'
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: modal_title
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: 'Modal title'
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: modal_description
+                            field:
+                              antlers: false
+                              display: 'Modal Description'
+                              type: textarea
+                              icon: textarea
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                    display: Products
+                    type: replicator
+                    icon: replicator
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+            services-page:
+              display: services-page
+              fields:
+                -
+                  handle: identifier
+                  field:
+                    collapse: false
+                    previews: true
+                    sets:
+                      new_set:
+                        display: 'New Set'
+                        fields:
+                          -
+                            handle: identifier
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: Identifier
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: title
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: Title
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                    display: sidebar
+                    type: replicator
+                    icon: replicator
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+                -
+                  handle: title
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Title
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+                -
+                  handle: services
+                  field:
+                    collapse: false
+                    previews: true
+                    sets:
+                      new_set:
+                        display: 'New Set'
+                        fields:
+                          -
+                            handle: identifier
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: Identifier
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: title
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: Title
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: description
+                            field:
+                              antlers: false
+                              display: Description
+                              type: textarea
+                              icon: textarea
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                    display: Services
+                    type: replicator
+                    icon: replicator
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+            about-page:
+              display: about-page
+              fields:
+                -
+                  handle: section_title
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: 'section title'
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+                -
+                  handle: cards
+                  field:
+                    collapse: false
+                    previews: true
+                    sets:
+                      new_set:
+                        display: 'New Set'
+                        fields:
+                          -
+                            handle: card_title
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: 'Card Title'
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: card_description
+                            field:
+                              antlers: false
+                              display: 'Card Description'
+                              type: textarea
+                              icon: textarea
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: card_image
+                            field:
+                              mode: list
+                              container: assets
+                              restrict: false
+                              allow_uploads: true
+                              show_filename: true
+                              display: 'Card Image'
+                              type: assets
+                              icon: assets
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                              max_files: 1
+                          -
+                            handle: if_image_on_the_left
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: 'if image on the left'
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                    display: cards
+                    type: replicator
+                    icon: replicator
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+            faq-page:
+              display: faq-page
+              fields:
+                -
+                  handle: section_title
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: 'Section Title'
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+                -
+                  handle: faq
+                  field:
+                    collapse: false
+                    previews: true
+                    sets:
+                      new_set:
+                        display: 'New Set'
+                        fields:
+                          -
+                            handle: question
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: Question
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: answer
+                            field:
+                              antlers: false
+                              display: Answer
+                              type: textarea
+                              icon: textarea
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: identifier
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: identifier
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: target
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: target
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                    display: faq
+                    type: replicator
+                    icon: replicator
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+            contact-page:
+              display: contact-page
+              fields:
+                -
+                  handle: section_title
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: 'Section Title'
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+                -
+                  handle: form
+                  field:
+                    restrict: false
+                    automatic_line_breaks: true
+                    automatic_links: false
+                    escape_markup: false
+                    smartypants: false
+                    antlers: false
+                    display: form
+                    type: markdown
+                    icon: markdown
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+            news-page:
+              display: news-page
+              fields:
+                -
+                  handle: section_title
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: 'Section Title'
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+                -
+                  handle: news
+                  field:
+                    collapse: false
+                    previews: true
+                    sets:
+                      new_set:
+                        display: 'New Set'
+                        fields:
+                          -
+                            handle: image
+                            field:
+                              mode: list
+                              container: assets
+                              restrict: false
+                              allow_uploads: true
+                              show_filename: true
+                              max_files: 1
+                              display: image
+                              type: assets
+                              icon: assets
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: title
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: title
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: description
+                            field:
+                              antlers: false
+                              display: description
+                              type: textarea
+                              icon: textarea
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: link
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: link
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                          -
+                            handle: left
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: left
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                              visibility: visible
+                              always_save: false
+                    display: news
+                    type: replicator
+                    icon: replicator
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+          display: Blocks
+          type: replicator
+          icon: replicator
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          localizable: true
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - pages
+          max_items: 1
+          listable: false
+          localizable: true

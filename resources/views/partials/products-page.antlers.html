@@ -1,0 +1,66 @@
+<section>
+    <div class="container-fluid">
+        <div class="row p-2">
+            <div class="col-12 col-md-3 mt-5">
+
+                {{ sidebar }}
+                <button type="button" class="list-group-item list-group-item-action" onclick="scrollToSection('{{identifier}}')">{{ title }}</button>
+               {{ /sidebar }}
+          
+            </div>
+            <div class="col-12 col-md-8">
+                <div class="row p-4 mt-5">
+                    <div class="">
+                        <h4>{{ section_title }}</h4>
+                    </div>
+                </div>
+
+                <div class="row justify-content-between p-2 align-items-stretch">
+                    {{ products }}
+        
+                    <div id="{{identifier}}" class="col-md-4 col-12 mb-3">
+                        <div class="card h-100" style="{{card_size}}">
+                            <img src="{{image}}" class="card-img-top" alt="...">
+                            <div class="card-body searchable-content">
+                                <h5 id="MARINEENGINEERINGWORKS" class="card-title">{{ title }}</h5>
+                                <p class="card-text">
+                                   {{ description }}
+    
+                                </p>
+                                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#{{modal_link}}">{{card_cta}}</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                   
+                    <!--modals-->
+                    <div class="modal fade" id="{{modal_id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">{{ modal_title }} </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Modal content for Card 2 -->
+                                   {{ modal_description }}
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                   {{ /products }}
+    
+                   
+
+                    
+    
+                </div>
+            </div>
+                
+            </div>
+           
+        </div>
+    </div>
+</section>

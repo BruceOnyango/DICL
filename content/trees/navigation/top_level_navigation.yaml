@@ -1,0 +1,29 @@
+tree:
+  -
+    id: ef9e70a3-c10b-4295-ad95-578a78fca6c8
+    title: Home
+    url: /
+  -
+    id: 346b48eb-a310-4d88-9113-ab517692b137
+    title: Products
+    url: /products
+  -
+    id: f2ce0297-4915-4305-84ff-3422a790248a
+    title: Services
+    url: /services
+  -
+    id: 1022502e-972b-4fa2-87e3-3326ef273225
+    title: 'About Us'
+    url: /about
+  -
+    id: 41b10536-e420-433e-b492-78876ab74138
+    title: 'Contact Us'
+    url: /contact
+  -
+    id: 85a3a913-84d6-4a36-8fa6-5f4ba1561934
+    title: FAQ
+    url: /faq
+  -
+    id: 27300a15-924e-410a-8089-8c31d26fda06
+    title: News
+    url: /news

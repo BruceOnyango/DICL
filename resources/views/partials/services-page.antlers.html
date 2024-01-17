@@ -1,0 +1,40 @@
+<section>
+    <div class="container-fluid">
+        <div class="row p-2">
+            <div class="col-12 col-md-3 mt-5">
+
+                {{ identifier }}
+                <button type="button" class="list-group-item list-group-item-action" onclick="scrollToSection('{{ identifier }}')">{{ title }}</button>
+               {{ /identifier }}
+            </div>
+            <div class="col-12 col-md-8 p-5">
+                <div class="row mt-2">
+                    <div class="">
+                        <h4>{{ title }}</h4>
+                    </div>
+                </div>
+
+                <div class="row justify-content-start ">
+
+                    {{ services }}
+                   <div id="{{ identifier }}" class="mb-3 searchable-content">
+                    
+                    <h5 class="card-title">{{ title }}</h5>
+
+                    <p class="card-text">
+                        {{ description }}
+                    </p>
+                    </div>
+                   
+                    {{ /services }}
+                   
+    
+    
+                </div>
+            </div>
+                
+            </div>
+           
+        </div>
+    </div>
+</section>

@@ -1,0 +1,68 @@
+ <!--About us-->
+ <section>
+    <div class="container-fluid mb-3">
+        <div class="row p-4">
+            <div class="col-md-6 offset-md-5">
+                <h4>{{ section_title }}</h4>
+            </div>
+        </div>
+
+        {{ news }}
+        <div class="row justify-content-between">
+           
+
+            {{ if left }}
+            
+           
+
+            <div class="col-md-4 col-12 p-5">
+                <img src="{{ image }}" class="card-img-top" alt="...">
+
+
+            </div>
+
+            <div class="col-md-8 col-12 mb-3">
+                <div class=" p-5 mb-5">
+                    <div class="card-body searchable-content">
+                        <h5 class="card-title"><a href="{{link}}">{{ title }}</h5></a>
+
+                        <p class="card-text">{{ description}}</p>
+                       
+
+                    </div>
+                </div>
+            </div>
+            {{ else }}
+            
+            <div class="col-md-8 col-12 mb-3">
+                <div class=" p-5 mb-5">
+                    <div class="card-body searchable-content">
+                        <h5 class="card-title"><a href="{{link}}">{{ title }}</h5></a>
+
+                        <p class="card-text">{{ description}}</p>
+                       
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12">
+                <img src="{{ image }}" class="card-img-top" alt="...">
+
+
+            </div>
+           
+            {{ /if}}
+        </div>
+
+        {{ /news }}
+        
+
+    </div>
+
+
+
+
+
+    </div>
+    </div>
+</section>
