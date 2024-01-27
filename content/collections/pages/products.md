@@ -30,7 +30,7 @@ blocks:
       -
         id: lrgjfza8
         identifier: DREDGINGANDMARINEENGINEERING
-        title: 'DREDGING AND MARINE ENGINEERING'
+        title: 'DREDGING AND ENGINEERING WORKS'
         type: new_set
         enabled: true
       -
@@ -50,7 +50,7 @@ blocks:
         identifier: 'SUPPLYOFDIVINGGEARS,SPECIALIZEDMARINECRAFTS'
         title: 'SUPPLY OF DIVING GEARS, SPECIALIZED MARINE CRAFTS'
         type: new_set
-        enabled: true
+        enabled: false
       -
         id: lrgjhp3w
         identifier: MARINESURVEYSOLUTIONS
@@ -68,11 +68,23 @@ blocks:
         identifier: WEATHERMONITORING
         title: 'WEATHER MONITORING'
         type: new_set
-        enabled: true
+        enabled: false
       -
         id: lrgjimp0
         identifier: GENERALSUPPLIES
         title: 'GENERAL SUPPLIES'
+        type: new_set
+        enabled: false
+      -
+        id: lrvzr83z
+        identifier: OILSPILLDETECTIONANDMONITORINGSYSTEMS
+        title: 'OIL SPILL DETECTION AND MONITORING SYSTEMS'
+        type: new_set
+        enabled: true
+      -
+        id: lrvzrtdk
+        identifier: INTEGRATEDENVIRONMENTMONITORINGSYSTEM
+        title: 'INTEGRATED ENVIRONMENT MONITORING SYSTEM'
         type: new_set
         enabled: true
     section_title: Products
@@ -92,9 +104,52 @@ blocks:
         modal_id: modal1
         modal_title: 'MARINE ENGINEERING WORKS'
         modal_description: |-
-          At DICL, we provide diversified solutions to help our clients in managing their operational requirements for marine and dredging projects. 
-                                                      All our Marine Works are performed under strict compliance to Health, Safety,
-                                                       Security, Environment and Quality (HSSEQ); and the Zero Harm to People, Environment, and   Assets.
+          We undertake various types of Marine Engineering Works some of which are :-
+          <ul> 
+          <li>Hydrographic Survey</li>
+          <li>Dredging works</li>
+          <li>Port Rehabilitation Works</li>
+          <li>Supply, Installation of Floating Jetty</li>
+          <li>Diving Support</li>
+          </ul>
+          <strong>Hydrographic Survey</strong
+          <ul>
+          <li>We offer complete solutions for on-shore, near-shore and transitional zone
+          hydrographic and geophysical surveys and geotechnical investigations. We
+          have comprehensive skills sets and experience in undertaking such projects
+          in remote regions. All necessary personnel and equipment’s are available with
+          us in our Dubai Base.</li>
+          <li>We have established a strong hydrographic survey capability which includes
+          high-resolution multibeam surveys, single-beam bathymetry, side-scan
+          imaging, sub-bottom profiling, and magnetometer surveys.</li>
+          </ul>
+          <strong>2D and 3D survey</strong>
+          <li>Specialized in sonars, survey software, magnetometers, positioning systems,
+          gyros, and motion sensors.</li>
+          <li>Environmental monitoring and forecasting.</li>
+          <li>Data buoys and telemetry systems.</li>
+          <strong>Fisheries research support. Current and Tide Measurement</strong>
+          <li>We are able to undertake current and tide measurement works in addition to
+          Hydrographic Survey works</li>
+          <strong>Dredging works</strong><br>
+          We have undertaken dredging works in remote locations in Africa including marine
+          engineering works (Groin construction, Stoppage of sedimentation etc) . We have
+          specialized Equipments and qualified/ capable workforce for undertaking such
+          works.
+          Along with dredging we do also study the pattern of current movement and arrange
+          to install Specialized Groins so to avoid further siltation in dredged areas.
+          <br><strong>Port Rehabilitation Works</strong><br>
+          We have requisite technical and human capacity to undertake even the most
+          demanding harbor construction and repair works. This includes construction and
+          maintenance of berths and rumps, installation of communication and container
+          tracking systems.<br>
+          <strong>Supply, Installation of Floating Jetty </strong><br>
+          We supply and install of Floating Jetty in sea / Lake Condition.
+          Floating Jetty have an inherent advantage over Fixed Jetty as detailed below:
+          <li>Cheaper and easier to install</li>
+          <li>Less Time consuming</li>
+          <li>Can be relocated with changes in water level in East African Lake condition
+          and with changes in weather pattern arising out of Global Warming</li>
         type: new_set
         enabled: true
       -
@@ -130,7 +185,7 @@ blocks:
         identifier: DREDGINGANDMARINEENGINEERING
         card_size: 'width: 17rem;'
         image: pic_8.jpg
-        title: 'DREDGING AND MARINE ENGINEERING'
+        title: 'DREDGING AND  ENGINEERING WORKS'
         description: |-
           We have undertaken dredging works in remote locations in Africa including marine engineering works (Groin construction, Stoppage of sedimentation etc) . We have specialized 
                                                       Equipments and qualified/ capable workforce for undertaking such works.</p>
@@ -150,19 +205,28 @@ blocks:
         image: pic_8.jpg
         title: 'CONSTRUCTION AND  ENGINEERING WORKS'
         description: |-
-          DICL provides a single-window solution to clients for all Marine, Civil & Structural works. 
-                      We have experienced personnel in undertaking civil projects end to end. We are able to provide in-depth management and supervision of all projects, with hands-on   involvement by the company’s principals and project supervisors from start to finish.
-                      We specialize in undertaking remote site Civil, Mechanical and Marine Engineering Works. 
-                      Various such works undertaken by us around East Africa are detailed in our Experience Schedule given hereunder.
+          DICL provides a single-window solution to clients for all Marine, Civil &amp; Structural
+          works.
+          We have experienced personnel in undertaking civil projects end to end. We are able
+          to provide in-depth management and supervision of all projects, with hands-on
+          involvement by the company’s principals and project supervisors from start to finish.
+          We specialize in undertaking remote site Civil, Mechanical and Marine Engineering
+          Works.
+          Various such works undertaken by us around East Africa are detailed in our Profile.
+          Our On-Land Engineering works portfolio includes......
         modal_link: modal4
         card_cta: 'Read More'
         modal_id: modal4
         modal_title: 'CONSTRUCTION AND  ENGINEERING WORKS'
         modal_description: |-
-          DICL provides a single-window solution to clients for all Marine, Civil & Structural works. 
-                      We have experienced personnel in undertaking civil projects end to end. We are able to provide in-depth management and supervision of all projects, with hands-on   involvement by the company’s principals and project supervisors from start to finish.
-                      We specialize in undertaking remote site Civil, Mechanical and Marine Engineering Works. 
-                      Various such works undertaken by us around East Africa are detailed in our Experience Schedule given hereunder.
+          <ol>
+          <li>Geotechnical Drilling works</li>
+          <li>Construction/ Rehabilitation of Factories (Cotton Ginning Factory , Milling
+          Factories etc)</li>
+          <li>Access Control and Barrier Protection</li>
+          <li>Water Engineering Works</li>
+          <li>Provision of Modified Containerized Camping Facilities</li>
+          </ol>
         type: new_set
         enabled: true
       -
@@ -216,7 +280,7 @@ blocks:
                                                       <li>Water Sports Boats</li>	
                                                   </ul>
         type: new_set
-        enabled: true
+        enabled: false
       -
         id: lrgjxelp
         identifier: MARINESURVEYSOLUTIONS
@@ -261,11 +325,42 @@ blocks:
         modal_id: modal8
         modal_title: 'SOLAR ENGINEERING WORKS'
         modal_description: |-
-          Our Team of Professionals (duly certified with ERC-Kenya) are able to provide complete solution for Off Grid Solar Power system customized to your need. 
-                                                      The materials (Panels, Batteries, Cables etc) will be sourced directly from Manufacturer and having all due warranty etc.
-                                                      We are providing such Off Grid Power solution for home, small commercial Enterprises all across Kenya.
-                                                      In addition, we are able to provide Solar Powered Cold Room Facilities (Off Grid) for storage of various Agricultural Products so that the cost of wastage / damage reduces for the Farmers. 
-                                                      Our team of Professionals are innovative and can provide solution to your energy need which can be a combination of Solar, Bio and Hydro Power.
+          <ul> WHY GO SOLAR
+          <li>SAVE MONEY - YOU ARE GENERATING
+          YOUR OWN
+          ELECTRICITY INSTEAD
+          OF BUYING IT FROM
+          GRID</li>
+          <li>ENERGY
+          INDEPENDENCE - BATTERIES ENABLE
+          YOU TO STORE YOUR
+          EXCESS SOLAR
+          ENERGY TO USE
+          LATER</li>
+          <li>RENEWABLE ENERGY
+          BUYBACK - RECEIVE PAYMENT
+          FOR FEEDING EXCESS
+          ENERGY INTO THE
+          GRID ONCE KENYA
+          GOVT APPROVES
+          SAME</li>
+          <li>CLEAN ENERGY - SOLAR POWER
+          SYSTEM PRODUCES
+          SIGNIFICANTLY LESS
+          CARBON EMISSIONS</li>
+          <li>VALUE ADDITION - Increases your home/
+          property value by making
+          attractive to potential
+          buyers</li>
+          </ul>
+          <h6>OFFGRID SOLAR</h6><br>
+          Our range of solar solutions can cater to everyone, right from small domestic
+          requirements to large scale industrial requirements. Switching to solar is one of the
+          best things you can do to minimize your household / Commercial energy
+          consumption. Solar system stands out as a proven, reliable, simple and elective
+          solution that lowers a total electricity bills through using the sun&#39;s free energy to
+          supply hot water by up to 65% on overall energy savings; Solar system generates
+          savings for institutions and households.
         type: new_set
         enabled: true
         image: pic_13.jpg
@@ -330,7 +425,7 @@ blocks:
                                                           </li>
                                                       </ul>
         type: new_set
-        enabled: true
+        enabled: false
       -
         id: lrgk4rv2
         identifier: GENERALSUPPLIES
@@ -362,6 +457,100 @@ blocks:
                                                           <li>Drilling Mud Defoamers & Foaming Agents</li>
                                                       </ul>
         type: new_set
+        enabled: false
+      -
+        id: lrvztm51
+        identifier: INTEGRATEDENVIRONMENTMONITORINGSYSTEM
+        card_size: 'width: 17rem;'
+        image: pic_15.jpg
+        title: 'INTEGRATED ENVIRONMENT MONITORING SYSTEM'
+        description: |-
+          Integrated Environment Monitoring
+          system
+          <ul><strong> ONSHORE </strong>
+          <li>Automatic Weather
+          Stations </li>
+          <li>Coastal Observing
+          Systems</li>
+          <li>Offshore Platform Based
+          Systems</li>
+          <li> Synoptic Observation</li>
+          <li>Unified Data Collection
+          system</li>
+          <li>Climatological Database
+          System</li>
+          <li>Numerical Weather
+          Prediction</li>
+          <li>Weather Studio and IMS
+          Model Suite </li>
+          <li>Web Publishing</li>
+          </ul>
+          <strong>MARINE</strong>
+          <ul>
+          <li>Tide &amp; Met Stations
+          <li>Water Quality Monitoring
+          Stations</li>
+          <li>Marine Data Buoys</li>
+          <li>Monitoring Station on
+          Offshore Platforms</li>
+          </ul>
+        modal_link: modal11
+        card_cta: 'Read More'
+        modal_id: modal11
+        modal_title: 'INTEGRATED ENVIRONMENT MONITORING SYSTEM'
+        modal_description: |-
+          Integrated Environment Monitoring
+          system
+          <ul><strong> ONSHORE </strong>
+          <li>Automatic Weather
+          Stations </li>
+          <li>Coastal Observing
+          Systems</li>
+          <li>Offshore Platform Based
+          Systems</li>
+          <li> Synoptic Observation</li>
+          <li>Unified Data Collection
+          system</li>
+          <li>Climatological Database
+          System</li>
+          <li>Numerical Weather
+          Prediction</li>
+          <li>Weather Studio and IMS
+          Model Suite </li>
+          <li>Web Publishing</li>
+          </ul>
+          <strong>MARINE</strong>
+          <ul>
+          <li>Tide &amp; Met Stations
+          <li>Water Quality Monitoring
+          Stations</li>
+          <li>Marine Data Buoys</li>
+          <li>Monitoring Station on
+          Offshore Platforms</li>
+          </ul>
+        type: new_set
+        enabled: true
+      -
+        id: lrvzvl80
+        identifier: OILSPILLDETECTIONANDMONITORINGSYSTEMS
+        card_size: 'width: 17rem;'
+        image: pic_15.jpg
+        title: 'OIL SPILL DETECTION AND MONITORING SYSTEMS'
+        description: |-
+          The best solution for oil recovery specialists, combining oil spill detection with
+          hydrographical data extraction to optimize prevention and cleaning operation.
+          The outstanding sensitivity of the SeaDarQ software allows detecting oil spill from
+          the sea surface clutter even with a very weak breeze.
+        modal_link: modal12
+        card_cta: 'Read More'
+        modal_id: modal12
+        modal_title: 'OIL SPILL DETECTION AND MONITORING SYSTEMS'
+        modal_description: |-
+          The best solution for oil recovery specialists, combining oil spill detection with
+          hydrographical data extraction to optimize prevention and cleaning operation.
+          The outstanding sensitivity of the SeaDarQ software allows detecting oil spill from
+          the sea surface clutter even with a very weak breeze.
+        type: new_set
         enabled: true
     type: products-page
     enabled: true
@@ -370,5 +559,5 @@ blocks:
     type: footer
     enabled: true
 updated_by: c06c3dec-39be-4b15-aec6-643e1dad9e3d
-updated_at: 1705423024
+updated_at: 1706356102
 ---

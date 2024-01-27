@@ -4,6 +4,10 @@ tree:
     title: Home
     url: /
   -
+    id: 1022502e-972b-4fa2-87e3-3326ef273225
+    title: 'About Us'
+    url: /about
+  -
     id: 346b48eb-a310-4d88-9113-ab517692b137
     title: Products
     url: /products
@@ -11,10 +15,6 @@ tree:
     id: f2ce0297-4915-4305-84ff-3422a790248a
     title: Services
     url: /services
-  -
-    id: 1022502e-972b-4fa2-87e3-3326ef273225
-    title: 'About Us'
-    url: /about
   -
     id: 41b10536-e420-433e-b492-78876ab74138
     title: 'Contact Us'

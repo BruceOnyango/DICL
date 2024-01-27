@@ -368,7 +368,7 @@ blocks:
           <!-- Copyright -->
         </footer>
 updated_by: c06c3dec-39be-4b15-aec6-643e1dad9e3d
-updated_at: 1705471642
+updated_at: 1705559045
 ---
 ## Welcome to your new brand Statamic site!
 
